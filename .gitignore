@@ -1,0 +1,15 @@
+# Never commit secrets
+.env
+.env.local
+.env.*.local
+
+# Netlify cache
+.netlify/
+
+# Node
+node_modules/
+npm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
